@@ -1,0 +1,23 @@
+{
+  "name": "bot-system-points",
+  "version": "1.0.0",
+  "description": "Discord bot with access system, points, roles and moderation commands",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js && node --check src/config.js && node --check src/dataStore.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "points",
+    "access"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.1"
+  }
+}
